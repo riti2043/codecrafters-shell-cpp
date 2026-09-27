@@ -14,10 +14,8 @@ int main() {
     if(command=="exit"){
     break;
   }t
-  if(command=="echo"){
-    std::cout<<"echo";
-    std::string message;
-    std::cout<<"echo"<<message<<std::endl;
+  if(input.substr(0,5)=="echo"){
+    std::cout<<"echo"<<input.substr(5)<<std::endl;
   }
   std::cout<<command<<": command not found"<<std::endl;
 
