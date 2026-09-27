@@ -13,6 +13,11 @@ int main() {
   std::getline(std::cin,command);
     if(command=="exit"){
     break;
+  }t
+  if(command=="echo"){
+    std::cout<<"echo";
+    std::string message;
+    std::cout<<"echo"<<message<<std::endl;
   }
   std::cout<<command<<": command not found"<<std::endl;
 
